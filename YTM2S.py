@@ -62,8 +62,8 @@ def clean_artist_name(artist_name):
 
 
 # Spotify API setup
-SPOTIPY_CLIENT_ID = 'INSERT_CLIENT_ID'
-SPOTIPY_CLIENT_SECRET = 'INSERT_CLIENT_SECRET'
+SPOTIPY_CLIENT_ID = 'INSERT_CLIENT_ID' # Insert spotify client ID.
+SPOTIPY_CLIENT_SECRET = 'INSERT_CLIENT_SECRET' # Insert client secret.
 SPOTIPY_REDIRECT_URI = 'http://localhost:8888/callback' # This is a default redirect
 
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=SPOTIPY_CLIENT_ID,
